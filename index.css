@@ -1,0 +1,53 @@
+body {
+    background: #1F2937;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+#main {
+    height: 285px;
+    background: #6943FF;
+    text-align: center;
+    font-weight: 800;
+}
+
+#number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: #6943FF;
+    font-size: 58px;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    margin: 0 auto;
+}
+
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #000000;
+}
+
+.conversion-display {
+    width: 500px;
+    height: 110px;
+    padding-top: 31px;
+    background: #273549;
+    margin: 20px auto;
+    border-top-left-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#length-text, #volume-text, #mass-text {
+    font-size: 14px;
+    padding-top: 32px;
+}
